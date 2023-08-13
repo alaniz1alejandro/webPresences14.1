@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+added music to the page 
+alejandro alaniz
+11 aug 2023
+alaniz1alejandro@gmail.com
+
+-->
+<html lang="en">
+    <!--language for the html-->
+<head>
+    <nav>
+                <h2>
+                        Navigation
+                </h2>
+                <a href="./index.html"> home</a><br>
+                <a href="./bored.html"> boreds</a><br>
+                <a href="./strings.html"> strings</a><br>
+        </nav>
+    <!--link the js file-->
+    <script src="code.js"></script>
+    <!--opening for the header-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--linking the css-->
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Strings Page</title>
+    <!--title on the tab-->
+</head>
+<!--close for the header-->
+<body>
+    <!--this is the opening of the body-->
+    <h1>Welcome to my strings page
+    </h1>
+    <!--this is my meme as well as the center command-->
+    <center><img id="Pic" src="LoginMeme.jpg"></center><br>
+    <br>
+    <!--this is the music for the strings page -->
+    <center> <audio id="mp3" src="Double Violin Concerto 1st Movement - J.S. Bach.mp3" controls></center>
+        
+        </audio>
+    <!--this is the start of the login-->
+    Please login below<br>
+    <br>
+    <div id="loginStatus">Status of login</div><br>
+    <br>
+    <!--this is the start of the form-->
+<form id="creditSubmit" onsubmit="return false">
+    <!--these are the input boxs for the user-->
+    First Name: <input type ="text" id="fName"><br>
+    Last Name:  <input type ="text" id="lName"><br>
+    Zipe code:  <input type ="text" id="zipCode"><br>
+    <br>
+    <!--this is the button to sunbmit the info-->
+    <input type="submit" onclick="checkCreds();"class="button" >
+
+<!--this is the close of the form-->
+</form>
+<br>
+<br>
+<h1>palindrome checker</h1>
+<br>
+<div id="palinStatus">Palindrome Status</div>
+<br>
+<form id="palinSubmit" onsubmit="return false">
+Enter Possible Palindrome: <input type="text" id="palinInput"><br>
+<br>
+<input type="submit" onclick="checkPalin();" class="button">
+
+</form>
+
+    
+</body>
+</html>

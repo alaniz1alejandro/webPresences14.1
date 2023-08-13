@@ -1,0 +1,65 @@
+body{
+background-color: gray;
+color: rgb(0, 0, 0);
+
+
+}
+#phunTable{
+text-align: center;
+
+
+}
+table, th, td{
+    border: 1px solid black;
+
+}
+
+
+nav{
+    height: 6000px;
+width: 200px;
+float: left;
+padding: 5px;
+line-height: 30px;
+}
+
+#creditSubmit{
+text-align: left;
+
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+
+#memePic{
+    margin-right: 200px;
+    text-align: center;
+}
+#bodyText{
+
+    margin-right: 200px;
+    text-align: right;
+
+}
+/*this is to style the meme img*/
+.Pic{
+    text-align: center;
+    
+
+}
+/*this is to modify the text*/
+h1{text-align: center;}
+/*this is to style the botton*/
+header{
+
+    text-align: center;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: gold;
+}
